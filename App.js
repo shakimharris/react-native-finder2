@@ -6,9 +6,11 @@ state = {
   placeName: ''
 }
 
-placeNameChangedHandler = (event) => {
-  alert(event);
-}
+placeNameChangedHandler = val => {
+  this.setState({
+    placeName: val
+  });
+};
 
 
   render() {
