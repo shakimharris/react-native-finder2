@@ -7,5 +7,8 @@ const listItem = () => (
 </View>
 
 );
+const styles = Stylesheet.create{(
+  
 
+)};
 export default listItem;
