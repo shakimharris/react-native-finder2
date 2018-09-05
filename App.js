@@ -10,6 +10,11 @@ placeNameChangedHandler = val => {
   this.setState({
     placeName: val
   });
+
+placeSubmitHander = () => {
+
+});
+
 };
 
 
@@ -24,7 +29,8 @@ placeNameChangedHandler = val => {
         onChangeText={this.state.placeNameChangedHandler}
         style={styles.placeInput}/>
         <Button title="Add"
-        style={styles.placeButton} />
+        style={styles.placeButton}
+        onPress={this.placeSubmitHander} />
 
       </View>
       </View>
