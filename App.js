@@ -18,10 +18,11 @@ placeNameChangedHandler = val => {
       <View style={styles.container}>
       <View style={styles.inputContainer}>
         <TextInput
-        style={{width: 300}}
+        style={{}}
         placeHolder="An awesome app built by Shakim"
         value={this.state.placeName}
-        onChangeText={this.state.placeNameChangedHandler} />
+        onChangeText={this.state.placeNameChangedHandler}
+        style={styles.placeInput}/>
         <Button title="Add" />
       </View>
       </View>
