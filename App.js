@@ -7,7 +7,7 @@ state = {
 }
 
 placeNameChangeHandler = (event) => {
-  
+  alert(event);
 }
 
 
