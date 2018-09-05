@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
   },
   inputContainer: {
     flex: 1,
-    flex-direction: "row",
+    flexDirection: "row",
     justifyContent: "space-between",
   }
 });
