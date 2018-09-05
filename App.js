@@ -16,12 +16,14 @@ placeNameChangedHandler = val => {
   render() {
     return (
       <View style={styles.container}>
-      <TextInput
-      style={{width: 300}}
-      placeHolder="An awesome app built by Shakim"
-      value={this.state.placeName}
-      onChangeText={this.state.placeNameChangedHandler} />
-      <Button />
+      <View>
+        <TextInput
+        style={{width: 300}}
+        placeHolder="An awesome app built by Shakim"
+        value={this.state.placeName}
+        onChangeText={this.state.placeNameChangedHandler} />
+        <Button />
+      </View>
       </View>
     );
   }
