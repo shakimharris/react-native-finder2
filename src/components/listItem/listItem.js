@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet} from 'react-native';
 const listItem = () => (
 <View>
-<Text></Text>
+<Text>{props.placeName}</Text>
 
 </View>
 
