@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, TextInput } from 'react-native';
 
 export default class App extends React.Component {
 state = {
-  name: ''
+  placeName: ''
 }
 
 
@@ -11,7 +11,7 @@ state = {
   render() {
     return (
       <View style={styles.container}>
-      <TextInput />
+      <TextInput value={this.state.placeName} />
       </View>
     );
   }
