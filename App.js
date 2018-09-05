@@ -40,6 +40,6 @@ const styles = StyleSheet.create({
   inputContainer: {
     flex: 1,
     flex-direction: "row",
-    
+    justifyContent: "space-between",
   }
 });
