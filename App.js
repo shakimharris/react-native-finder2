@@ -15,6 +15,11 @@ placeSubmitHandler = () => {
   if(this.setState.placeName.trim() === ""){
     return;
   }
+  this.setState(prevState => {
+    return {
+      
+    }
+  });
 
 });
 
