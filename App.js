@@ -23,7 +23,9 @@ placeNameChangedHandler = val => {
         value={this.state.placeName}
         onChangeText={this.state.placeNameChangedHandler}
         style={styles.placeInput}/>
-        <Button title="Add" />
+        <Button title="Add"
+        style={styles.placeButton} />
+
       </View>
       </View>
     );
