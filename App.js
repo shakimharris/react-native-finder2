@@ -11,6 +11,7 @@ state = {
   render() {
     return (
       <View style={styles.container}>
+      <TextInput />
       </View>
     );
   }
