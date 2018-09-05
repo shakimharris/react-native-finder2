@@ -6,6 +6,9 @@ state = {
   placeName: ''
 }
 
+placeNameChangeHandler = (event) => {
+  
+}
 
 
   render() {
