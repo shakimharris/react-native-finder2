@@ -6,7 +6,7 @@ state = {
   placeName: ''
 }
 
-placeNameChangeHandler = (event) => {
+placeNameChangedHandler = (event) => {
   alert(event);
 }
 
@@ -17,7 +17,7 @@ placeNameChangeHandler = (event) => {
       <TextInput
       style={{width: 300, borderColor: "black", borderWidth: 1}}
       value={this.state.placeName}
-      onChangeText={this.state.placeNameChangeHandler} />
+      onChangeText={this.state.placeNameChangedHandler} />
       </View>
     );
   }
