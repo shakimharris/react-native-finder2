@@ -21,12 +21,7 @@ placeNameChangedHandler = val => {
       placeHolder="An awesome app built by Shakim"
       value={this.state.placeName}
       onChangeText={this.state.placeNameChangedHandler} />
-      <Button
-      onPress={onPressAdd}
-      title="Add"
-      color="#841584"
-      accessibilityLabel="Add your information"
-/>
+      <Button />
       </View>
     );
   }
