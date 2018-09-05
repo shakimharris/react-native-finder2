@@ -11,7 +11,6 @@ state = {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Welcome to the home screen!</Text>
       </View>
     );
   }
