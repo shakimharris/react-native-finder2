@@ -43,8 +43,8 @@ placeSubmitHandler = () => {
         <Button title="Add"
         style={styles.placeButton}
         onPress={this.placeSubmitHandler} />
-
       </View>
+      <View>{placesOutput}</View>
       </View>
     );
   }
