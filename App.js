@@ -22,7 +22,7 @@ placeNameChangedHandler = val => {
         placeHolder="An awesome app built by Shakim"
         value={this.state.placeName}
         onChangeText={this.state.placeNameChangedHandler} />
-        <Button />
+        <Button title="Add" />
       </View>
       </View>
     );
