@@ -15,6 +15,7 @@ placeNameChangeHandler = (event) => {
     return (
       <View style={styles.container}>
       <TextInput
+      style={{width: 300, borderColor: "black"}}
       value={this.state.placeName}
       onChangeText={this.state.placeNameChangeHandler} />
       </View>
