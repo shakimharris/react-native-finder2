@@ -11,7 +11,7 @@ placeNameChangedHandler = val => {
     placeName: val
   });
 
-placeSubmitHander = () => {
+placeSubmitHandler = () => {
 
 });
 
@@ -30,7 +30,7 @@ placeSubmitHander = () => {
         style={styles.placeInput}/>
         <Button title="Add"
         style={styles.placeButton}
-        onPress={this.placeSubmitHander} />
+        onPress={this.placeSubmitHandler} />
 
       </View>
       </View>
