@@ -8,7 +8,11 @@ const listItem = () => (
 
 );
 const styles = Stylesheet.create{(
-  
+  listItem: {
+      width: "100%",
+      padding: 10,
+      backgroundColor: '#eee'
+  }
 
 )};
 export default listItem;
