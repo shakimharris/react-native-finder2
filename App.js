@@ -28,9 +28,10 @@ placeNameChangedHandler = val => {
 
 const styles = StyleSheet.create({
   container: {
-    //flex: 1,
+    flex: 1,
+    padding:20,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
   },
 });
