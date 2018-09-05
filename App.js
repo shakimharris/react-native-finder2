@@ -3,7 +3,8 @@ import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 
 export default class App extends React.Component {
 state = {
-  placeName: ''
+  placeName: '',
+  places: []
 }
 
 placeNameChangedHandler = val => {
@@ -17,7 +18,7 @@ placeSubmitHandler = () => {
   }
   this.setState(prevState => {
     return {
-      
+
     }
   });
 
