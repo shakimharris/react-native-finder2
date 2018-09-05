@@ -43,9 +43,9 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
   },
   placeInput: {
-
+    width: "70%"
   },
   placeButton: {
-    
+    width: "30%"
   }
 });
