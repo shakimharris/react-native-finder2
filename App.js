@@ -17,7 +17,7 @@ placeNameChangedHandler = val => {
     return (
       <View style={styles.container}>
       <TextInput
-      style={{width: 300, borderColor: "black", borderWidth: 1}}
+      style={{width: 300}}
       placeHolder="An awesome app built by Shakim"
       value={this.state.placeName}
       onChangeText={this.state.placeNameChangedHandler} />
