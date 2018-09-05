@@ -18,7 +18,7 @@ placeSubmitHandler = () => {
   }
   this.setState(prevState => {
     return {
-
+    places: prevState.places.concat(prevState.placeName)
     }
   });
 
